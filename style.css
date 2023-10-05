@@ -1,0 +1,107 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background: #f2edf4;
+}
+#main_pic {
+  border-radius: 50%;
+  opacity: 1;
+  margin: 1% 0% 0% 40%;
+}
+#name {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 40px;
+  color: #4f4545;
+  font-weight: 700;
+  font-variant: small-caps;
+  margin: 0% 0% 0% 42%;
+}
+#title {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 30px;
+  word-spacing: 2px;
+  color: #4f4545;
+  font-weight: 400;
+  font-variant: small-caps;
+  margin: 0% 0% 0% 28%;
+}
+#about_me {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 25px;
+  word-spacing: 2px;
+  color: #262631;
+  font-weight: 700;
+  margin: 0% 0% 0% 2%;
+}
+.about_me_text {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 18px;
+  color: #262631;
+  font-weight: 400;
+  margin: 0% 0% 0% 0%;
+}
+#top_half {
+  /*для паттерна пользовалась генератором*/
+  background: 
+    radial-gradient(calc(1.28*20px + 7.5px/2) at left 50% bottom calc(-.8*20px),#f0dfdf calc(100% - 7.5px),#f2edf4 calc(101% - 7.5px) 100%,#0000 101%) calc(2*20px) calc(-1*calc(1.5*20px + 7.5px)),
+    radial-gradient(calc(1.28*20px + 7.5px/2) at left 50% bottom calc(-.8*20px),#e0dff0 calc(100% - 7.5px),#f2edf4 calc(101% - 7.5px) 100%,#0000 101%) calc(-1*20px) calc(calc(1.5*20px + 7.5px)/-2),
+    radial-gradient(calc(1.28*20px + 7.5px/2) at left 50% top    calc(-.8*20px),#e0dff0 calc(100% - 7.5px),#f2edf4 calc(101% - 7.5px) 100%,#0000 101%) 0 calc(1.5*20px + 7.5px),
+    radial-gradient(calc(1.28*20px + 7.5px/2) at left 50% top    calc(-.8*20px),#f0dfdf calc(100% - 7.5px),#f2edf4 calc(101% - 7.5px) 100%,#0000 101%) 20px calc(calc(1.5*20px + 7.5px)/ 2),
+    linear-gradient(#f0dfdf 50%,#e0dff0 0);
+  background-size: calc(4*20px) calc(1.5*20px + 7.5px);
+}
+#bottom_half {
+  background: #ffffff;
+  box-shadow: 5px 10px 10px #888888;
+  margin: 1% 0% 0% 0%;
+  display:flex;
+}
+#b_top {
+  width: 100%;
+  margin: 1% 1% 1% 1%;
+}
+#b_left {
+  width: 50%;
+  float:left;
+}
+#b_right {
+  
+}
+#bottom {
+  margin: 1% 0% 0% 1%;
+}
+td {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 20px;
+  word-spacing: 2px;
+  color: #262631;
+  font-weight: 700;
+  margin: 0% 0% 0% 4%;
+}
+th {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 16px;
+  word-spacing: 2px;
+  color: #262631;
+  font-weight: 400;
+  margin: 2% 2% 2% 6%;
+  text-align: left;
+}
+#xp {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 25px;
+  word-spacing: 2px;
+  color: #262631;
+  font-weight: 700;
+  margin: 0% 0% 0% 2%;
+}
+
+.xp_txt {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 18px;
+  color: #262631;
+  font-weight: 400;
+  margin: 0% 0% 0% 0%;
+}
